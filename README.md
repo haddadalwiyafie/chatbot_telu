@@ -3,6 +3,9 @@
 Code, test set and evaluation results for Tiva, a retrieval-augmented chatbot that answers questions about Telkom University
 (admissions, fees, programmes, campus life) from the university's public web pages.
 
+Authors: Agus Pratondo, Haddad Alwi Yafie, Muhammad Sheva Atallah Daffansyah (Telkom University).
+Funded by Penelitian Strategis (Invitasi) Tematik Artificial Intelligence (AI) Tahun 2025.
+
 ## Contents
 
 | Path | Description |
@@ -40,3 +43,7 @@ Evaluation (see `eval/README.md` for details):
 .venv/bin/python eval/evaluate.py --gen-model gemini-3.5-flash-lite generation --sleep 10
 .venv/bin/python eval/evaluate.py report
 ```
+
+## License
+
+Code: MIT. Test set, validation sheets and evaluation results in `eval/` (except `eval/evaluate.py`): CC BY 4.0. See `LICENSE`.

@@ -1,0 +1,13 @@
+{
+  "title": "Tiva: RAG chatbot for Telkom University admissions - code, test set and evaluation results",
+  "upload_type": "software",
+  "description": "Code, test set and evaluation results for Tiva, a retrieval-augmented chatbot that answers questions about Telkom University from the university's public web pages. Includes the deployed pipeline, the crawler, the list of source URLs, a 101-question test set with human validation, the evaluation harness, and all retrieval and end-to-end results (Gemini 3.5 Flash-Lite generator, Cohere Command A judge). Code is licensed under MIT; the test set and results under CC BY 4.0. Funded by Penelitian Strategis (Invitasi) Tematik Artificial Intelligence (AI) 2025.",
+  "creators": [
+    {"name": "Pratondo, Agus", "affiliation": "Telkom University"},
+    {"name": "Yafie, Haddad Alwi", "affiliation": "Telkom University"},
+    {"name": "Daffansyah, Muhammad Sheva Atallah", "affiliation": "Telkom University"}
+  ],
+  "license": "mit",
+  "keywords": ["retrieval-augmented generation", "chatbot", "LLM-as-a-judge", "Indonesian", "higher education", "evaluation"],
+  "notes": "Funding: Penelitian Strategis (Invitasi) Tematik Artificial Intelligence (AI) Tahun 2025."
+}
