@@ -1,0 +1,23 @@
+# secrets and local environment
+.env
+.venv/
+venv/
+env/
+__pycache__/
+.DS_Store
+*.log
+
+# vector store (rebuilt by load_to_chroma.py)
+chroma_db/
+chroma_db_baru/
+*.parquet
+
+# corpus text: not redistributed (see corpus_urls.txt and README)
+data_telkom.json
+data/
+
+# evaluation scratch, caches and local archives
+eval/results/cache/
+eval/results/generation.backup.jsonl
+eval/results.zip
+eval/testset_telu.original.jsonl

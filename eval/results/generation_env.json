@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-10-27T09:05:26.379733+00:00",
+  "python": "3.12.15",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "processor": "arm",
+  "cpu_count": 8,
+  "args": {
+    "repo": "/Users/haddadalwiyafie/chatbot_telu-main",
+    "testset": "/Users/haddadalwiyafie/chatbot_telu-main/eval/testset_telu.jsonl",
+    "out": "/Users/haddadalwiyafie/chatbot_telu-main/eval/results",
+    "mock": false,
+    "embed_model": "embed-v4.0",
+    "gen_model": "gemini-3.5-flash-lite",
+    "judge_provider": "cohere",
+    "judge_model": "command-a-03-2025",
+    "index": "numpy",
+    "chunk_size": 1000,
+    "overlap": 150,
+    "cmd": "generation",
+    "configs": "G0,G1,G2,G3,G4",
+    "limit": 0,
+    "sleep": 10.0,
+    "human_n": 40
+  },
+  "packages": {
+    "cohere": "5.16.1",
+    "chromadb": "1.0.15",
+    "langchain_google_genai": "2.1.8",
+    "langchain_text_splitters": "0.3.8",
+    "numpy": "2.3.1"
+  },
+  "gen_model": "gemini-3.5-flash-lite",
+  "judge_model": "command-a-03-2025",
+  "embed_model": "embed-v4.0"
+}

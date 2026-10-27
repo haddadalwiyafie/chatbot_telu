@@ -1,0 +1,5 @@
+scored items: 80
+human vs LLM judge on 79 items (0/1/2): kappa 0.721, weighted kappa 0.833, raw agreement 87.3%
+human vs LLM judge on 'fully correct' (the accuracy metric): kappa 0.755, raw agreement 89.9%
+  G1: fully correct by human 59.0% vs by judge 64.1% (n = 39)
+  G4: fully correct by human 80.0% vs by judge 80.0% (n = 40)
